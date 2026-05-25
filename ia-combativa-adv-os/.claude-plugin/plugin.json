@@ -1,0 +1,8 @@
+{
+  "name": "ia-combativa-adv-os",
+  "version": "0.1.0",
+  "description": "Sistema operacional do advogado com IA — Batalhao Juridico (General + Estado-Maior + Comandantes + Tenentes) + Suprema Corte R1-R4. Onboarding interativo via /start, 29 skills juridicas, automacoes agendadas, suporte multi-dispositivo. 100% configuravel ao perfil do escritorio.",
+  "author": {
+    "name": "Mentoria IA Combativa"
+  }
+}
