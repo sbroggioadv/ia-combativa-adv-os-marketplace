@@ -1,0 +1,16 @@
+{
+  "$comment": "Configuracao de MCPs do Plugin Ia Combativa-Adv-OS. Abordagem MINIMALISTA e OPT-IN: apenas Context7 vem habilitado por default (pesquisa de documentacao de bibliotecas, risco LGPD zero). Outros conectores (Gmail, Calendar, etc) sao declarados pelo mentorado via Claude.ai nativos e registrados em state.connectors.available — NAO via este .mcp.json. Isso mantem o plugin neutro e evita contaminacao com credenciais especificas.",
+  "mcpServers": {
+    "context7": {
+      "$comment": "Context7 MCP — pesquisa de documentacao oficial de bibliotecas e SDKs. Zero dados sensiveis. Default-on pois apoia pesquisa juridica (Codigo Civil, CPC, Lei de Franquias, LGPD sao consultadas via skills proprias, mas Context7 ajuda com docs de ferramentas/APIs quando necessario).",
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {}
+    }
+  },
+  "$notes": {
+    "conectores_anthropic_oficiais": "Gmail, Google Calendar, Google Drive, Slack, GitHub, etc NAO sao MCPs deste plugin — sao conectores oficiais Anthropic que o mentorado ativa na sua conta Claude via Claude.ai (Settings > Connectors). O plugin apenas LE de connectors.available (state.json) para saber o que esta disponivel e adaptar sugestoes.",
+    "mcp_customizado": "Se o mentorado quer adicionar MCP proprio (nao-Anthropic, nao-Context7), deve adicionar diretamente em ~/.claude.json ou equivalente. Este plugin NAO gerencia MCPs customizados — evita que update do plugin sobrescreva configuracoes do mentorado.",
+    "warning_lgpd": "Qualquer MCP que acesse dados sensiveis (email, docs, calendario) deve ser adicionado com aceite explicito do warning LGPD via wizard /start (Bloco 6.5.B Conectores) ou /cowork-set."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ia-combativa-adv-os-marketplace",
+  "description": "Marketplace oficial do plugin IA Combativa Adv-OS. Sistema operacional do advogado com IA — Batalhao Juridico (General + Estado-Maior + Comandantes + Tenentes) + Suprema Corte R1-R4. Onboarding interativo via /start, 29 skills juridicas, automacoes agendadas, suporte multi-dispositivo. 100% configuravel ao perfil do escritorio do usuario.",
+  "owner": {
+    "name": "Mentoria IA Combativa"
+  },
+  "plugins": [
+    {
+      "name": "ia-combativa-adv-os",
+      "source": "./ia-combativa-adv-os",
+      "description": "Plugin Claude Code para advogados estruturarem IA juridica de excelencia. Onboarding interativo via /start. Batalhao Juridico (General + Estado-Maior + Comandantes + Tenentes + Suprema Corte R1-R4), 29 skills (pecas, contratos, contrarrazoes, replica, due diligence, holding, compliance LGPD, calculo juridico, jurisprudencia, visual law, marketing juridico, comunicacao com cliente, financeiro, escritorio, parecer, resumo de audiencia, peticao universal, estrategia de caso, analise trilateral, documentos extrajudiciais, firm-master, memory-evolver, cowork-onboarding/sync e Suprema Corte R1-R4), automacoes agendadas e suporte multi-dispositivo. 100% configuravel ao perfil do escritorio.",
+      "author": {
+        "name": "Mentoria IA Combativa"
+      }
+    }
+  ]
+}
