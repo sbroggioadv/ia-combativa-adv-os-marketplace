@@ -111,7 +111,7 @@ Planejamento arquitetural em `.planning/` (9 docs com decisões, roadmap, plano 
 
 A **Mentoria Ia Combativa** capacita advogados brasileiros a estruturar e operar seus escritórios com Inteligência Artificial de excelência. Este plugin é um dos produtos entregues aos mentorados — molde operacional pronto que cada advogado configura para seu próprio perfil via `/start`.
 
-**Criador da mentoria e autor deste plugin:** Luis Augusto Sbroggio Lacanna.
+**Criador da mentoria e autor deste plugin:** Luis Sbroggio.
 
 **Saiba mais:** [@luissbroggio](https://github.com/sbroggioadv) no GitHub.
 
@@ -121,4 +121,4 @@ A **Mentoria Ia Combativa** capacita advogados brasileiros a estruturar e operar
 
 MIT — veja [`LICENSE`](./LICENSE).
 
-Copyright (c) 2026 Luis Augusto Sbroggio Lacanna — Mentoria Ia Combativa.
+Copyright (c) 2026 Luis Sbroggio — Mentoria Ia Combativa.
