@@ -1,14 +1,16 @@
 {
-  "SessionStart": [
-    {
-      "matcher": "",
-      "hooks": [
-        {
-          "type": "command",
-          "command": "echo '[ia-combativa-adv-os] Plugin da Mentoria IA Combativa ativo. Rode /start para configurar seu escritorio.'",
-          "timeout": 5
-        }
-      ]
-    }
-  ]
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[ia-combativa-adv-os] Plugin da Mentoria IA Combativa ativo. Rode /start para configurar seu escritorio.'",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
 }
